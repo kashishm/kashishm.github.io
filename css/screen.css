@@ -447,7 +447,8 @@ nav {
     padding: 14px 10px;
     border: 0;
     display: none;
-    font-size: 14px; }
+    font-size: 14px;
+    -webkit-transition: all 0.5s ease; }
     nav a:hover {
       color: #fff;
       border-bottom: 2px solid rgba(255, 255, 255, 0.8); }
