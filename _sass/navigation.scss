@@ -35,6 +35,8 @@ nav {
 		border: 0;
 		display: none;
 		font-size: 14px;
+		-webkit-transition: all 0.5s ease;
+
 		&:hover {
 			color: #fff;
 			border-bottom: 2px solid rgba(255,255,255,.8);
