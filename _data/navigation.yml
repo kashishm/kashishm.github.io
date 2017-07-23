@@ -1,0 +1,7 @@
+- name: About
+  link: "#about"
+- name: Contact
+  link: "#contact"
+- name: Blog
+  link: https://medium.com/@kashishmunjal
+  new_window: true

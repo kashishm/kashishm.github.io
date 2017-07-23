@@ -1,0 +1,52 @@
+# ----
+# Site
+
+title: Kashish Munjal
+url: "https://kashishm.github.io"
+baseurl:
+google_analytics_key: UA-97388219-1
+
+# Site settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+timezone: Asia/Kolkata
+
+# -----
+# Build
+
+permalink: pretty
+
+gems:
+  - jekyll-gist
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "contact-success.html"
+    values:
+      layout: "page"
+
+social_icons:
+  - Facebook
+  - LinkedIn
+  - Twitter
+  - Email
+
+_comments:
+  description: Kashish Munjal's Website
+  blurb: Life is dumb 😂 and I want to sleep 😴.

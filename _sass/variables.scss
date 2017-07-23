@@ -1,0 +1,11 @@
+$brand-color: #6ba1f3;
+
+// Breakpoints
+$tablet: "(min-width: 450px)";
+$mid-point: "(min-width: 620px)";
+$desktop: "(min-width: 768px)";
+$spacing-unit:     30px;
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 25%);
+$grey-color-dark:  darken($grey-color, 25%);
+$monospace-font-family: "Fira Mono", monospace;

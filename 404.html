@@ -1,0 +1,22 @@
+---
+title: 404 - Not Found
+permalink: /404.html
+image: /images/welcome.jpg
+---
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+	<div class="inner-hero text-container">
+		<div class="hero-text-container">
+			<h1 class="editable">Page Not Found!</h1>
+			<p class="subtext editable">
+			&#9785; <i>Sorry this page does not exist</i> &#9785;
+            <div class="cta button alt" style="text-align: center; margin-bottom: 2%;"><a href="/">Back to home page</a></div>
+			</p>
+		</div>
+	</div>
+	<div class="learn-more"><a href="#404-content">Learn more <span class="arrow">&#x25BC;</span></a></div>
+</section>
+<section class="pad" id="404-content">
+	<div class="container">
+		{% gist 63aa47d635d972216692f3f479c09dd1 %}
+	</div>
+</section>
