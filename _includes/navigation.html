@@ -1,6 +1,0 @@
-<nav>
-	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	{% for link in site.data.navigation %}
-		<a id="{{ link.link }}" href="{{ link.link }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
-	{% endfor %}
-</nav>
