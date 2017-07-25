@@ -6,6 +6,7 @@
 	display: inline-block;
 	padding: 16px 50px;
 	background: #fff;
+	border-radius: 16px;
 }
 
 .button a:hover, input[type=submit]:hover {
@@ -41,7 +42,6 @@ label, input, textarea {
 textarea {
 	resize: vertical;
 	height: 150px;
-	border-radius: 16px;
 }
 
 label {
@@ -51,6 +51,7 @@ label {
 input, textarea {
 	padding: 10px;
 	font-size: 1em;
+	border-radius: 16px;
 }
 
 input, textarea {

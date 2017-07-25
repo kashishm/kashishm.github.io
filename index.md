@@ -22,7 +22,7 @@ This website is my window to the world. You're welcome to have a look at my **[w
 </section>
 
 <div class="content">
-<section class="pad" id="about">
+<section class="pad" id="about" style="padding-bottom: 0px;">
 	<div class="container">
 	<div style="text-align: center;">
 		<h2>About</h2>
@@ -48,7 +48,8 @@ If I were to program myself, following would be the perfect program:
 {% gist e531605a93f8e62114ee5e9fb8d85558 %}
 </div>
 </div>
-<section class="pad" id="contact">
+</section>
+<section class="pad" id="contact" style="background: #f7f7f7">
 <div class="container contact-box">
 <div style="text-align: center;">
 	<h2>Get in Touch</h2>
@@ -60,13 +61,13 @@ Find me on [Twitter](http://twitter.com/Kashish_Munjal), [Github](https://github
 		<input type="hidden" name="_next" value="{{ site.baseurl }}/contact-success/" />
 		
 		<label for="name">Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name...">
+		<input type="text" name="name" id="name">
 
 		<label for="email">Email Address</label>
-		<input type="email" name="_replyto" id="email" placeholder="Enter your email..." required>
+		<input type="email" name="_replyto" id="email" required>
 
 		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+		<textarea name="message" id="message" required></textarea>
 		<input type="submit" value="Send Message">
 		<div class="button" style="margin: 20px 0 0 0; text-align: center;">
 			<a href="/static/cv/kashish-CV.pdf" style="width: 100%;box-sizing: border-box;" class="alt">Download CV</a>
