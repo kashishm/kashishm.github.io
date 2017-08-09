@@ -3,3 +3,15 @@ title: Contact Success
 description: Your message has been sent. I'll be in touch soon.
 image: /images/welcome.jpg
 ---
+<section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
+    <div class="inner-hero text-container">
+		<div class="hero-text-container">
+            <h1>
+            {{ page.title }}
+            </h1>
+			<p class="subtext editable">
+			{{ page.description }}
+			</p>
+		</div>
+	</div>
+</section>

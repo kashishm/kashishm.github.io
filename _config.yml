@@ -35,11 +35,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-  -
-    scope:
-      path: "contact-success.html"
-    values:
-      layout: "page"
 
 social_icons:
   - Facebook

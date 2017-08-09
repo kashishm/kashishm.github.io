@@ -1,11 +1,8 @@
 ---
-title: Home
-description: Kashish Munjal's Journal.
+title: Kashish Munjal
+description: Kashish Munjal's Website
 image: /images/welcome.jpg
 ---
-<script>
-myWork = {"github": "kashishm", "blog": "https://kashishm.github.io/blog"} 
-</script>
 <section class="hero" style="background-image: url({% include relative-src.html src=page.image %})">
 	<div class="inner-hero text-container">
 		<div class="hero-text-container">
@@ -39,7 +36,7 @@ I am a developer at [ThoughtWorks Studios](https://www.thoughtworks.com/products
 
 I am passionate about new technologies and its applications in the field of Software Engineering.
 
-Most of my work is public, including my [codes](https://github.com/kashishm). When I am not coding, I like to play Cricket, Badminton or watch movies/TV. One of my favorite TV series is "The Big Bang Theory". I blog at [kashishm.github.io](/blog) about my technical work.
+Most of my work is public, including my [codes](https://github.com/kashishm). When I am not coding, I like to play Cricket, Badminton or watch movies/TV. One of my favorite TV series is "The Big Bang Theory". I blog at [medium.com](https://medium.com/@kashishmunjal) about my technical work.
 
 One thing I really like about being a developer is that you are always working on machines which don’t argue, they remember everything, and they don’t drink all your beer.
 

@@ -6,6 +6,9 @@ left_links:
   - name: Blog
     link: https://medium.com/@kashishmunjal
     new_window: true
+  - name: CV
+    link: /static/cv/kashish-CV.pdf
+    new_window: true
 right_links:
   - name: 
     link: https://facebook.com/kash.munjal
